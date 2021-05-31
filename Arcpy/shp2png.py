@@ -1,3 +1,5 @@
+## -*- coding: utf-8 -*- 
+    
 import glob, os
 import arcpy
 import xlwt
@@ -7,37 +9,43 @@ import xlwt
 #################################################################################################
 
 # 注意：
-# D:\Map文件下面可以放历年的交通网络地图，以不同文件名命名，程序循环读取所有的地图批量处理。
+# Z:\Network文件下面可以放历年的交通网络地图，以不同文件名命名，程序循环读取所有的地图批量处理。
 # 代码执行后输出：
 #               图片格式的交通网络地图
 #               和图片格式地图四个角的经纬度（数据在excel文件中four_corner_coordinates.xls）
-# 代码执行需要在 ArcGis 的 Python 窗口中输入 execfile(r"")
+# 代码执行需要在 ArcGis 的 Python 窗口中输入 execfile(r'Z:\Data\Map\Code\ExportPNG.py')
+ 
+    
+#########################################
+### 根据数据存储的目录，需要修改以下路径 ###
+#########################################
 
 # 转换文件所保存的路径
-shp_input = r"D:\Map"
+shp_input = r"Z:\Network\\"
 
 # 转换后输出的路径
-png_output = r"D:\Map"
+png_output = r"Z:\Network\\"
 
 # 国界border.shp：用于确保转为图片后大小都一致
-border_shp = r"D:\Map\border.shp"
+border_shp = r"Z:\Input\China_Polygon.shp"
 
 # 样式Standard_Symbology.lyr：用于修改网络矢量图的样式，比如线加粗
-symbologyLayer = r"D:\Map\Standard_Symbology.lyr"
+symbologyLayer = r"Z:\Input\Standard_Symbology.lyr"
 
 # 图片四个角的经纬度
-xls_output = r"D:\Map\four_corner_coordinates.xls"
+xls_output = r"Z:\Network\four_corner_coordinates.xls"
 
-###################
-### 以下不须修改 ###
-###################
+
+#######################
+### 以下内容不须修改 ###
+#######################
 
 book = xlwt.Workbook()
 sheet1 = book.add_sheet("Sheet1")
 
 os.chdir(shp_input)
 row = 1
-for file in sorted(glob.glob(net+"*.shp"),reverse=True):
+for file in sorted(glob.glob("*.shp"),reverse=True):
     print(file)
 
     borderlayer = arcpy.MakeFeatureLayer_management(border_shp, "border_Layer", "", "", "")

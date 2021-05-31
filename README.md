@@ -5,8 +5,16 @@
 该项目的代码将陆续整理上传。
 
 ## 计算城际交通距离 ![](http://latex.codecogs.com/svg.latex?d_{ij})
-### 第一步 将shapefile格式的交通网络数据转为图片格式
-### 第二步 利用图片格式的交通地图和城市经纬度计算城际交通距离
+#### 第一步 利用Arcpy文件下shp2png.py代码将shapefile格式的交通网络数据转为图片格式
+* Z:\Network文件下面可以放历年的交通网络地图，以不同文件名命名，程序循环读取所有的地图批量处理。
+* 代码执行后输出：
+*               图片格式的交通网络地图
+*               和图片格式地图四个角的经纬度（数据在excel文件中four_corner_coordinates.xls）
+* 代码执行需要在 ArcGis 的 Python 窗口中输入 execfile(r'Z:\Data\Map\Code\ExportPNG.py')
+
+
+
+#### 第二步 利用图片格式的交通地图和城市经纬度计算城际交通距离
 
 
 ## 计算交通时间 ![](http://latex.codecogs.com/svg.latex?T_{ijt}^m)
@@ -18,15 +26,6 @@
 
 
 ## 计算市场规模 ![](http://latex.codecogs.com/svg.latex?MS_{it})
-
-
-
-
-
-
-
-
-
 
 ## 其他链接 
 可以在以下网址下载文章的代码：
