@@ -5,17 +5,19 @@
 该项目的代码将陆续整理上传。
 
 ## 计算城际交通距离 ![](http://latex.codecogs.com/svg.latex?d_{ij})
-### 第一步，将shapefile格式的交通网络数据转为图片格式
-### 第二步，利用图片格式的交通地图和城市经纬度计算城际交通距离
+### 第一步 将shapefile格式的交通网络数据转为图片格式
+### 第二步 利用图片格式的交通地图和城市经纬度计算城际交通距离
 
 
-## 计算交通时间 $T_{ijt}^m$
+## 计算交通时间 ![](http://latex.codecogs.com/svg.latex?$T_{ijt}^m$)
 
 
-## 计算冰山成本 $tau_{it}$
+
+## 计算冰山成本 ![](http://latex.codecogs.com/svg.latex?$tau_{it}$)
 
 
-## 计算市场规模 $MS_{it}$
+
+## 计算市场规模 ![](http://latex.codecogs.com/svg.latex?$MS_{it}$)
 
 
 
