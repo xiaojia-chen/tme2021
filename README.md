@@ -4,7 +4,7 @@
 该项目的代码将陆续整理上传。
 
 ## 计算城际交通距离
-[](http://latex.codecogs.com/gif.latex?\\d_{ijt}}})
+![](http://latex.codecogs.com/gif.latex?\\d_{ijt}}})
 
 
 ## 计算交通时间 $T_{ijt}^m$
