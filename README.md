@@ -9,15 +9,15 @@
 ### 第二步 利用图片格式的交通地图和城市经纬度计算城际交通距离
 
 
-## 计算交通时间 ![](http://latex.codecogs.com/svg.latex?$T_{ijt}^m$)
+## 计算交通时间 ![](http://latex.codecogs.com/svg.latex?T_{ijt}^m)
 
 
 
-## 计算冰山成本 ![](http://latex.codecogs.com/svg.latex?$tau_{it}$)
+## 计算冰山成本 ![](http://latex.codecogs.com/svg.latex?tau_{it})
 
 
 
-## 计算市场规模 ![](http://latex.codecogs.com/svg.latex?$MS_{it}$)
+## 计算市场规模 ![](http://latex.codecogs.com/svg.latex?MS_{it})
 
 
 
