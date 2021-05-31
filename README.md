@@ -10,6 +10,7 @@
 * Z:\Network文件下面可以放历年的交通网络地图，以不同文件名命名，程序循环读取所有的地图批量处理。
 * 代码执行后输出： 图片格式的交通网络地图 和 图片格式地图四个角的经纬度（数据在excel文件中four_corner_coordinates.xls）
 * 代码执行需要在 ArcGis 的 Python 窗口中输入 execfile(r'Z:\Arcpy\shp2png.py')
+![image](https://github.com/xiaojia-chen/tme2021/blob/main/ScreenRecord/ArcGis%E6%93%8D%E4%BD%9C%E5%BD%95%E5%B1%8F.GIF)  
 
 #### 1.2 利用图片格式的交通地图和城市经纬度计算城际交通距离
 
