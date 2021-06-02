@@ -16,7 +16,7 @@
 * 利用Matlab文件下的calculate_time.m计算城市之间的交通时间。
 * 需要图片格式的交通网络、城市经纬度、交通速度等数据。
 * calculate_time.m运行过程需要调用到weight_map.m,gradist_tool.m,mat2col.m,latlon2rowcol.m。
-* 运行结果将历年不同类型交通网络的城际交通速度的数据保持到Network文件下，格式为csv。
+* 运行结果将历年不同类型交通网络的城际交通时间数据保存到Network文件下，格式为csv，需要以utf-8编码打开。
 
 ## 2 计算冰山成本 ![](http://latex.codecogs.com/svg.latex?tau_{it})
 
