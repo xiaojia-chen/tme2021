@@ -23,6 +23,9 @@
 
 ## 3 计算市场规模 ![](http://latex.codecogs.com/svg.latex?MS_{it})
 
+
+## 4 最小生成树工具变量构造
+
 ## 其他链接 
 可以在以下网址下载文章的代码：
 * https://github.com/xiaojia-chen/tme2021
