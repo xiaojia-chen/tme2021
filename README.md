@@ -1,6 +1,8 @@
 # 《交通结构、市场规模与经济增长》一文代码说明书
 
-该仓库包含文章所用的代码和示例数据。参考该代码时，请引用文献“陈晓佳,徐玮,安虎森.交通结构、市场规模与经济增长[J].世界经济,2021.”。
+该仓库包含文章所用的代码和示例数据。参考该代码时，请引用文献“[陈晓佳, 徐玮, 安虎森. 交通结构、市场规模与经济增长[J]. 世界经济, 2021, 44(6): 72-96.](https://manu30.magtech.com.cn/sjjj/CN/article/downloadArticleFile.do?attachType=PDF&id=680)”。
+
+"Chen Xiaojia, Xu Wei, An Husen. Transportation Structure, Market Size and Economic Growth[J]. The Journal of World Economy, 2021, 44(6): 72-96."
 
 代码将陆续整理上传。
 
@@ -20,12 +22,13 @@
 
 ## 2 计算冰山成本 ![](http://latex.codecogs.com/svg.latex?tau_{it})
 
+TBD
 
 ## 3 计算市场规模 ![](http://latex.codecogs.com/svg.latex?MS_{it})
 
-
+TBD
 ## 4 最小生成树工具变量构造
-
+TBD
 ## 其他链接 
 可以在以下网址下载文章的代码：
 * https://github.com/xiaojia-chen/tme2021
